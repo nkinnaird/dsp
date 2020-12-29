@@ -86,14 +86,14 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Bayes' Theorem is given as P(A|B) = P(B|A)P(A)/P(B). I want to find the probabilty that Elvis was an identical twin, given that he was a twin. With T and I standing for "twin" and "identical twin," I can rewrite the theorem as P(I|T) = P(T|I)P(I)/P(T). P(T|I) = 1 since if the given is that Elvis is an identical twin then he is automatically a twin. P(I) is the probability of being an identical twin, given as 1/300 in the problem statement. And P(T) is the probabilty of being a twin at all, which is given by 1/125 + 1/300. Plugging all the factors in, P(I|T) = 1 * (1/300) / ( 1/125 + 1/300 ) = 0.294. Elvis, given that he is a twin, is 29.4% likely to have been an identical twin.
 
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> In general, Frequentist statistics operate under the assumption that probabilities are applied to repeatable random events, with the probabilities equal to the long term frequency of those events over the whole. Probabilities are not connected to hypotheses. Bayesian statistics on the other hand apply probabilities to hypotheses and/or single events, using prior and posterior knowledge to calculate such probabilities. Depending on the specific study or analysis, one approach may serve better than another. In some cases it's more a matter of preference or philosophy, and the two approaches can be largely equivalent in reaching a final answer. Side note: I have a lot more experience with Frequentist statistics rather than Bayesian, given that the physics problems I've worked on are inarguably Frequentist in nature, in the literal sense.
 
 ---
 
